@@ -1,0 +1,81 @@
+.recipe-body{
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 0px 250px;
+    background-color: beige;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-top: 0px;
+    font-size: 50px;
+    text-shadow: white 10px 5px 8px;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+img{
+    border: 20px solid burlywood;
+    width: 350px;
+    height: 350px;   
+}
+
+.description{
+    text-align: left; 
+}
+
+.desc{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.desc-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+ul{
+    font-size: 17px;
+    list-style: disc;
+    line-height: 25px;
+    background-color: blanchedalmond;
+}
+
+ol{
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 80px;
+    background-color: blanchedalmond;
+}
+
+li:nth-of-type(even){
+    background-color: bisque;
+}
+
+li:nth-of-type(odd){
+    background-color: rgb(221, 190, 150);
+}
+li{
+    text
+}
+
+a{
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: red;
+    border: 5px solid burlywood;
+}
+
+footer{
+    clear: both;
+    margin-top: 50px;
+    padding: 5px;
+    height: 50px;
+    background-color: burlywood;
+}
